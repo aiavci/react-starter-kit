@@ -16,7 +16,7 @@ import { localeStore } from "./mobx";
 /**
  * Components
  */
-import { Header, NavigationMenu } from "./components"
+import { Header, HeaderMenu } from "./containers"
 
 /**
  * Pages
@@ -30,7 +30,7 @@ class App extends Component {
         <Router>
           <div>
             <Header />
-            <NavigationMenu />
+            <HeaderMenu />
             <div className = "App-content">
               <Route path = "/" exact component = { HomePage } />
             </div>

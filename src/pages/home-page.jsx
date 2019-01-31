@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import { inject, observer } from "mobx-react";
 
+import { Page } from "../components"
+
 @inject("localeStore") @observer
 class HomePage extends Component {
 	constructor(props) {
@@ -14,9 +16,9 @@ class HomePage extends Component {
 
   render() {
     return (
-      <div>
+      <Page>
         {this.state.localeStore.getLocalized("text.app_name")}
-      </div>
+      </Page>
     );
   }
 }

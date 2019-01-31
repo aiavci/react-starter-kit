@@ -7,5 +7,6 @@ export const langStrings = {
 		app_navigation: "Sample Navigation Bar",
 		app_name: "Welcome to the Ali Avci's React starter kit. " +
             "Please star repository and contribute.",
+    home_page: "Home Page"
 	}
 };
