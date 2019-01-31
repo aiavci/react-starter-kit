@@ -5,6 +5,7 @@ export const langStrings = {
 		en: "English",
 		app_header: "Sample Header",
 		app_navigation: "Sample Navigation Bar",
-		app_name: "React Starter Kit",
+		app_name: "Welcome to the Ali Avci's React starter kit. " +
+            "Please star repository and contribute.",
 	}
 };
