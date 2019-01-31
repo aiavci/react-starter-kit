@@ -1,1 +1,1 @@
-export { default as LocaleStore } from "./locale-store";
+export { default as localeStore } from "./locale-store";

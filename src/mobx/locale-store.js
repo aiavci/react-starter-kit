@@ -7,7 +7,8 @@ import * as Polyglot from "node-polyglot";
 /**
  * Static files containing translations
  */
-let en = require("./../i18n/en");
+// import { en } from "./i18n"
+let en = require("./i18n/en");
 
 var browserLocale = require('browser-locale')();
 
@@ -45,5 +46,5 @@ class LocaleStore {
 	}
 }
 
-const LocaleStore = new LocaleStore();
-export default LocaleStore;
+const localeStore = new LocaleStore();
+export default localeStore;

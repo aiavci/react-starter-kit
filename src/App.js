@@ -11,7 +11,7 @@ import { Provider } from "mobx-react";
 /**
  * Mobx stores
  */
-import { LocaleStore } from "./mobx";
+import { localeStore } from "./mobx";
 
 /**
  * Components
@@ -26,12 +26,14 @@ import { HomePage } from "./pages"
 class App extends Component {
   render() {
     return (
-      <Provider LocaleStore = {LocaleStore}>
+      <Provider localeStore = {localeStore}>
         <Router>
-          <Header />
-          <div className = "App-Content">
+          <div>
+            <Header />
             <NavigationMenu />
-            <Route path = "/" exact component = { HomePage } />
+            <div className = "App-content">
+              <Route path = "/" exact component = { HomePage } />
+            </div>
           </div>
         </Router>
       </Provider>
