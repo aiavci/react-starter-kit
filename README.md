@@ -7,6 +7,7 @@ Sample boilerplate for custom React websites
 - [Installation](#installation)
 - [Usage](#usage)
 - [Support](#support)
+- [Used Tools](#tools)
 - [Contributing](#contributing)
 
 ## Installation
@@ -29,6 +30,14 @@ Create new components inside src/components and new pages inside src/pages and l
 ## Support
 
 Please [open an issue](https://github.com/aiavci/react-starter-kit/issues/new) for support.
+
+## Tools
+
+Below is a list of some of the tools used.
+
+- node-polyglot: Enables localization
+- mobx: Enables scalable state management
+- react-router-dom: Enables client-side routing
 
 ## Contributing
 
