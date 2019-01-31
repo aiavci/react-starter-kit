@@ -1,0 +1,1 @@
+export { default as LocaleStore } from "./locale-store";
