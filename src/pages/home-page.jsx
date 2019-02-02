@@ -24,7 +24,12 @@ class HomePage extends Component {
           <title>Home Page</title>
           <meta name="title" content ="Ali Avc's react-starter-kit home page" />
         </Helmet>
-        {this.state.localeStore.getLocalized("text.app_name")}
+        <h1>
+          Sample Home Page
+        </h1>
+        <p>
+          This is sample home page content.
+        </p>
       </Page>
     );
   }
