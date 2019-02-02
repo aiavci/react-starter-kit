@@ -16,7 +16,12 @@ import { localeStore } from "./mobx";
 /**
  * Components
  */
-import { Header, Footer, HeaderMenu } from "./containers"
+import { Header, Footer } from "./components"
+
+/**
+ * Containers
+ */
+import { HeaderMenu } from "./containers"
 
 /**
  * Pages
